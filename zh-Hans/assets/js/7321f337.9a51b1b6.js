@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcombway_website=self.webpackChunkcombway_website||[]).push([[315],{4986:e=>{e.exports=JSON.parse('[{"label":"hello","permalink":"/zh-Hans/blog/tags/hello","count":1},{"label":"welcome","permalink":"/zh-Hans/blog/tags/welcome","count":1}]')}}]);

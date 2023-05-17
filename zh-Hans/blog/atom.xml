@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.combway-iot.com/zh-Hans/blog</id>
+    <title>Combway Technology Blog</title>
+    <updated>2023-05-06T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.combway-iot.com/zh-Hans/blog"/>
+    <subtitle>Combway Technology Blog</subtitle>
+    <icon>https://www.combway-iot.com/zh-Hans/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://www.combway-iot.com/zh-Hans/blog/welcome</id>
+        <link href="https://www.combway-iot.com/zh-Hans/blog/welcome"/>
+        <updated>2023-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Say hello to everyone from Combway IoT.]]></summary>
+        <content type="html"><![CDATA[<p>Say hello to everyone from Combway IoT.</p>]]></content>
+        <author>
+            <name>Tony</name>
+            <uri>https://github.com/myapple</uri>
+        </author>
+        <author>
+            <name>He Qun</name>
+            <uri>https://github.com/hawkbee</uri>
+        </author>
+        <category label="hello" term="hello"/>
+        <category label="welcome" term="welcome"/>
+    </entry>
+</feed>
