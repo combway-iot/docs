@@ -1,0 +1,26 @@
+{
+  "logo.alt": {
+    "message": "安捷云数",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Blog": {
+    "message": "新闻动态",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.User Guide": {
+    "message": "用户手册",
+    "description": "Navbar item with label User Guide"
+  },
+  "item.label.Tutorial": {
+    "message": "常见问题",
+    "description": "Navbar item with label Tutorial"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.About Us": {
+    "message": "联系我们",
+    "description": "Navbar item with label About Us"
+  }
+}
