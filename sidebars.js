@@ -19,11 +19,11 @@ const sidebars = {
     "user/index",
     {
       type: "category",
-      label: "ZT-RG1782PoE",
+      label: "D1",
       items: [
-        "user/ZT-RG1782PoE/index",
-        "user/ZT-RG1782PoE/industrial",
-        "user/ZT-RG1782PoE/system",
+        "user/D1/index",
+        "user/D1/industrial",
+        "user/D1/system",
       ],
     },
   ],

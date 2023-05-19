@@ -2,14 +2,14 @@
 
 ## Brief Introduction
 
-ZT-RG1782PoE is an industrial-grade 4G LTE cellular router
+D1 is an industrial-grade 4G LTE cellular router
 with a 5-port Ethernet interface for mission-critical communications.
 
-ZT-RG1782PoE is featured with multiple network protocols and VPN tunnels,
+D1 is featured with multiple network protocols and VPN tunnels,
 provides secure and reliable solutions for a range of M2M/IoT deployments.
 
 
-ZT-RG1782PoE is built with hardened enclosure, industrial components,
+D1 is built with hardened enclosure, industrial components,
 and wide operation range from -40°C to 70°C for harsh environments.
 Aside from Dual SIM redundancy and Wi-Fi for seamless wireless connectivity,
 it is also equipped with 4 PSE PoE ports, serial ports, digital I/O for field communications.
@@ -19,10 +19,10 @@ it is also equipped with 4 PSE PoE ports, serial ports, digital I/O for field co
 ## Specification
 
 :::note
-<a href="https://www.combway-iot.com/products/zt-rg1782poe" target="_blank">ZT-RG1782PoE Specification</a>
+<a href="https://www.combway-iot.com/products/D1" target="_blank">D1 Specification</a>
 :::
 
-![](/img/ZT-RG1782PoE.png "ZT-RG1782PoE")
+![](/img/D1.png "D1")
 
 ### Hardware
 
