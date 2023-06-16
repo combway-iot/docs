@@ -22,8 +22,39 @@ const sidebars = {
       label: "D1",
       items: [
         "user/D1/index",
-        "user/D1/industrial",
-        "user/D1/system",
+        {
+          type: "category",
+          label: "WEB Admin",
+          items: [
+            "user/D1/overview",
+            "user/D1/network",
+            "user/D1/firewall",
+            "user/D1/wireless",
+            "user/D1/system",
+            {
+              type: "category",
+              label: "Industrial Interface",
+              items: [
+                "user/D1/industrial",
+                "user/D1/serial_dtu",
+                "user/D1/serial_slave",
+                "user/D1/serial_master",
+              ],
+            },
+            "user/D1/vpn",
+            "user/D1/cloud",
+          ],
+        },
+        {
+          type: "category",
+          label: "Quick recipes",
+          collapsible: true,
+          collapsed: false,
+          items: [
+            { type: "ref", id: "tutorials/first_time_setup" },
+            { type: "ref", id: "tutorials/system_overview" },
+          ],
+        },
       ],
     },
   ],

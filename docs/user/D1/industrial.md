@@ -1,11 +1,10 @@
-# Industrial Interface
+# Introduction
 
 ## Industrial Interface
 
 ## DI/DO
 
 Digital I/O interface may be used as switch of high level for logical 1 and low level for logical 0.
-
 
 ### DI
 
@@ -27,29 +26,40 @@ Support half-duplex serial communication distance up to 120m.
 
 Support full-duplex serial communication distance up to 20m.
 
-Serial support `DTU Mode`, `Modbus Master` `Modbus Slave` work mode.
+### Settings
+
+The following settings are common to all modes of the serial port.
+
+| Setting               | Description                   | Default     |
+|:----------------------|:------------------------------|:------------|
+| Enable                | Enable serial port            | disable     |
+| Serial Type           | Serial port type (Predefined) | -           |
+| Baud Rate             | Serial port baudrate          | 9600        |
+| Data Bits             | Serial port data bits         | 8           |
+| Stop Bits             | Serial port stop bits         | 1           |
+| Parity                | Serial port parity bit        | None        |
+| Software Flow Control | Serial port flow control      | disable     |
+| Serial Mode           | Serial port work mode         | transparent |
+
+Serial support three work modes:
+
+ - `DTU Mode`
+ - `Modbus Slave`
+ - `Modbus Master`
 
 ### DTU Mode
 
- - Transparent
+Monitor the serial status and sync to remote server.
 
-    Router run TCP/UDP client, receive DTU from serial and send it to server, receive DTU from server and write to serial.
+ - [Transparent](serial_dtu#transparent)
 
    + TCP client
    + UDP client
 
- - Modbus
- - TCP Server
- - UDP Server
-
-### Modbus Master
-
-Monitor the Modbus Slave and react accordingly.
-
-#### Channel
-
- - Serial
- - TCP
+ - [Modbus](serial_dtu#modbus)
+ - [TCP Server](serial_dtu#tcp-server)
+ - [UDP Server](serial_dtu#udp-server)
+ - [MQTT](serial_dtu#mqtt)
 
 ### Modbus Slave
 
@@ -66,3 +76,12 @@ Define DI/DO ports and monitor the DI status and change the DO status via Modbus
 #### Modbus RTU Over TCP
 
 Define DI/DO ports and monitor the DI status and change the DO status via Modbus RTU Over TCP.
+
+### Modbus Master
+
+Monitor the Modbus Slave and react accordingly.
+
+#### Channel
+
+ - Serial
+ - TCP
