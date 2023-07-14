@@ -21,6 +21,17 @@ function HomepageHeader() {
 
 export default function Firmware() {
   const { siteConfig } = useDocusaurusContext();
+  const FirmwareList = [
+    {
+      model: "D1",
+      version: "v5.0.build20230705-1826",
+      href: "https://m.combway.com/firmware/OpenQuick-BLANK-v5.0.build20230705-1826-iot-7621-d1-squashfs-sysupgrade.web.bin",
+      notes: [
+        "Impove network stablity.",
+        "Upgrade to upstream lastest version.",
+      ],
+    },
+  ];
   return (
     <Layout
       title={`${siteConfig.title}`}
@@ -30,17 +41,11 @@ export default function Firmware() {
       <main className="container">
         <h1 className="margin-top--lg">Firmwre</h1>
         <div className="row">
-          <div className="col">
-            <DeviceFirmware
-              model="D1"
-              version="v5.0.build20230511-1534"
-              href="/docs/user"
-              notes={[
-                "Impove network stablity.",
-                "Upgrade upstream to lastest version.",
-              ]}
-            />
-          </div>
+          {FirmwareList.map((props, idx) => (
+            <div className="col">
+              <DeviceFirmware key={idx} {...props} />
+            </div>
+          ))}
           <div className="col"></div>
         </div>
       </main>

@@ -35,6 +35,7 @@ const sidebars = {
               type: "category",
               label: "Industrial Interface",
               items: [
+                "user/D1/gpio",
                 "user/D1/industrial",
                 "user/D1/serial_dtu",
                 "user/D1/serial_slave",
@@ -43,6 +44,7 @@ const sidebars = {
             },
             "user/D1/vpn",
             "user/D1/cloud",
+            "user/D1/openwrt",
           ],
         },
         {
